@@ -1,0 +1,66 @@
+import type { MetadataRoute } from "next"
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://carlocksmithsydney.com.au"
+
+  // Core pages
+  const routes = [
+    "",
+    "/about",
+    "/contact",
+    "/services",
+    "/emergency-car-locksmith",
+    "/car-key-replacement",
+    "/ignition-repair",
+    "/transponder-programming",
+    "/broken-key-extraction",
+    "/mobile-locksmith",
+    "/automotive-locksmith",
+    "/car-lockout-service",
+    "/remote-key-programming",
+    "/laser-cut-keys",
+    "/high-security-keys",
+    "/car-key-duplication",
+    "/smart-key-programming",
+    "/proximity-key-replacement",
+    "/keyless-entry-repair",
+    "/central-locking-repair",
+    "/car-door-lock-repair",
+    "/boot-lock-repair",
+    "/glove-box-lock-repair",
+    "/steering-lock-repair",
+    "/immobilizer-repair",
+    "/ecu-programming",
+    "/key-fob-repair",
+    "/battery-replacement",
+    "/lock-rekeying",
+    "/master-key-systems",
+    "/fleet-locksmith-services",
+    "/commercial-vehicle-locksmith",
+    "/motorcycle-locksmith",
+    "/truck-locksmith",
+    "/van-locksmith",
+    "/luxury-car-locksmith",
+    "/european-car-locksmith",
+    "/japanese-car-locksmith",
+    "/american-car-locksmith",
+    "/korean-car-locksmith",
+    "/hybrid-car-locksmith",
+    "/electric-car-locksmith",
+    "/classic-car-locksmith",
+    "/sports-car-locksmith",
+    "/suv-locksmith",
+    "/sedan-locksmith",
+    "/hatchback-locksmith",
+    "/coupe-locksmith",
+    "/convertible-locksmith",
+    "/wagon-locksmith",
+  ]
+
+  return routes.map((route) => ({
+    url: `${baseUrl}${route}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: route === "" ? 1 : 0.8,
+  }))
+}
