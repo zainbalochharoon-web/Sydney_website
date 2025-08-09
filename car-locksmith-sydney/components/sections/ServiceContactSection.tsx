@@ -36,7 +36,7 @@ export default function ServiceContactSection() {
                   </div>
                   <div>
                     <div className="text-white font-semibold text-lg">Emergency Hotline</div>
-                    <div className="text-blue-200">(02) 8000 0000</div>
+                    <div className="text-blue-200">0414 713 777</div>
                     <div className="text-blue-300 text-sm">24/7 Available</div>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ export default function ServiceContactSection() {
             
             <div className="space-y-4">
               <a 
-                href="tel:+61280000000" 
+                href="tel:+61414713777" 
                 className="w-full bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 inline-flex items-center justify-center transform hover:scale-105"
               >
                 <Phone className="h-6 w-6 mr-3" />

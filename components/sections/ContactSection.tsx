@@ -9,7 +9,7 @@ export default function ContactSection() {
   const { ref: ctaRef, isVisible: ctaVisible } = useScrollAnimation({ threshold: 0.4 })
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "61280000000" // Remove the + and 0
+    const phoneNumber = "61414713777"
     const message = "Hi, I need car locksmith services. Can you help me?"
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
@@ -19,7 +19,7 @@ export default function ContactSection() {
     {
       icon: Phone,
       title: "Phone",
-      details: ["(02) 8000 0000", "24/7 Emergency Service"],
+      details: ["0414 713 777", "24/7 Emergency Service"],
       color: "from-green-500 to-emerald-500",
       link: "#",
       action: handleWhatsAppClick // Added action for WhatsApp
@@ -207,7 +207,7 @@ export default function ContactSection() {
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">Phone *</label>
-                <input type="tel" name="phone" required className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition-all duration-300" placeholder="(02) 8000 0000" />
+                  <input type="tel" name="phone" required className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition-all duration-300" placeholder="0414 713 777" />
               </div>
               
               <div>
@@ -309,7 +309,7 @@ export default function ContactSection() {
                   className="bg-gradient-to-r from-yellow-500 to-orange-500 text-slate-900 px-8 py-4 rounded-xl font-bold text-lg hover:from-yellow-400 hover:to-orange-400 transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:scale-105"
                 >
                   <Phone className="h-5 w-5 mr-2" />
-                  WhatsApp: (02) 8000 0000
+                  WhatsApp: 0414 713 777
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse ml-2"></div>
                 </button>
                 <a

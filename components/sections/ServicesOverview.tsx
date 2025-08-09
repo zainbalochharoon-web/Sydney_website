@@ -9,7 +9,7 @@ export default function ServicesOverview() {
   const { ref: ctaRef, isVisible: ctaVisible } = useScrollAnimation({ threshold: 0.3 })
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "61280000000" // Remove the + and 0
+    const phoneNumber = "61414713777"
     const message = "Hi, I need car locksmith services. Can you help me?"
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
@@ -305,7 +305,7 @@ export default function ServicesOverview() {
                   className="bg-gradient-to-r from-yellow-500 to-orange-500 text-slate-900 px-8 py-4 rounded-xl font-bold text-lg hover:from-yellow-400 hover:to-orange-400 transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:scale-105"
                 >
                   <Phone className="h-5 w-5 mr-2" />
-                  WhatsApp: (02) 8000 0000
+                  WhatsApp: 0414 713 777
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse ml-2"></div>
                 </button>
                 <Link

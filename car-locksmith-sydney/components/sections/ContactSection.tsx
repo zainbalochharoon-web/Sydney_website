@@ -5,9 +5,9 @@ export default function ContactSection() {
     {
       icon: Phone,
       title: "Phone",
-      details: ["(02) 8000 0000", "24/7 Emergency Service"],
+      details: ["0414 713 777", "24/7 Emergency Service"],
       color: "from-green-500 to-emerald-500",
-      link: "tel:+61280000000"
+      link: "tel:+61414713777"
     },
     {
       icon: Mail,
@@ -85,11 +85,11 @@ export default function ContactSection() {
                 Locked out? Lost keys? Need immediate assistance? Call us now for 24/7 emergency car locksmith services.
               </p>
               <a
-                href="tel:+61280000000"
+                href="tel:+61414713777"
                 className="bg-white text-red-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all duration-300 inline-flex items-center shadow-lg hover:shadow-xl"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call Now: (02) 8000 0000
+                Call Now: 0414 713 777
               </a>
             </div>
           </div>

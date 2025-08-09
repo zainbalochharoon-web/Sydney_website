@@ -21,6 +21,9 @@ export const metadata: Metadata = {
       "Professional car locksmith services in Sydney. 24/7 emergency lockout, key replacement, ignition repair.",
     url: "https://carlocksmithsydney.com.au",
   },
+  alternates: {
+    canonical: "/",
+  },
 }
 
 export default function HomePage() {

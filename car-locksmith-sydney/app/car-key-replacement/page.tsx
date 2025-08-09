@@ -1,3 +1,9 @@
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/car-key-replacement" },
+}
+
 export default function KeyReplacementPage() {
   return (
     <section className="min-h-[60vh] flex flex-col items-center justify-center py-24">

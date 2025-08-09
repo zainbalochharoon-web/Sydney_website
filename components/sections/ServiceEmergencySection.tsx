@@ -44,11 +44,11 @@ export default function ServiceEmergencySection() {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="tel:+61280000000" 
+                href="tel:+61414713777" 
                 className="bg-gradient-to-r from-yellow-500 to-orange-500 text-slate-900 px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:from-yellow-400 hover:to-orange-400 transition-all duration-300 inline-flex items-center justify-center transform hover:scale-105"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Emergency Call: (02) 8000 0000
+                Emergency Call: 0414 713 777
               </a>
               <a 
                 href="/contact" 

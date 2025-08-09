@@ -32,8 +32,8 @@ export default function EmergencyContactSection() {
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-1">Emergency Hotline</h3>
                   <p className="text-yellow-100 mb-2">Available 24/7 for immediate assistance</p>
-                  <a href="tel:+61280000000" className="text-2xl font-bold text-yellow-400 hover:text-yellow-300 transition-colors">
-                    (02) 8000 0000
+                  <a href="tel:+61414713777" className="text-2xl font-bold text-yellow-400 hover:text-yellow-300 transition-colors">
+                    0414 713 777
                   </a>
                 </div>
               </div>

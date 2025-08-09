@@ -7,8 +7,11 @@ import Footer from "@/components/Footer"
 import { SchemaMarkup } from "@/components/SchemaMarkup"
 
 const inter = Inter({ subsets: ["latin"] })
+const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://carlocksmithsydney.com.au"
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Car Locksmith Sydney | 24/7 Emergency Auto Locksmith Services",
   description:
     "Professional car locksmith services in Sydney. 24/7 emergency lockout, key replacement, ignition repair. Fast, reliable, licensed. Call now!",
@@ -39,6 +42,9 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
+  },
+  verification: {
+    google: gscVerification,
   },
     generator: 'v0.dev'
 }

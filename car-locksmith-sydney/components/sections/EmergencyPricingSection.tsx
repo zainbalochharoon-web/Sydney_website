@@ -45,8 +45,8 @@ export default function EmergencyPricingSection() {
                 24/7 availability
               </li>
             </ul>
-            <a href="tel:+61280000000" className="w-full bg-red-500 text-white py-3 rounded-xl font-semibold text-center block hover:bg-red-600 transition-colors duration-300">
-              Call Now
+            <a href="tel:+61414713777" className="w-full bg-red-500 text-white py-3 rounded-xl font-semibold text-center block hover:bg-red-600 transition-colors duration-300">
+              Call Now: 0414 713 777
             </a>
           </div>
           {/* Broken Key Extraction */}

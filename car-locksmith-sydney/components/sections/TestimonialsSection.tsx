@@ -118,7 +118,7 @@ export default function TestimonialsSection() {
             <h3 className="text-2xl font-bold text-slate-900 mb-2">4.9/5 Average Rating</h3>
             <p className="text-gray-600 mb-6">Based on 500+ verified customer reviews</p>
             <a
-              href="tel:+61280000000"
+              href="tel:+61414713777"
               className="bg-gradient-to-r from-yellow-500 to-orange-500 text-slate-900 px-8 py-4 rounded-xl font-bold text-lg hover:from-yellow-400 hover:to-orange-400 transition-all duration-300 inline-flex items-center shadow-lg hover:shadow-xl"
             >
               Join Our Happy Customers

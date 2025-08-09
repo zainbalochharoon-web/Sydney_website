@@ -102,10 +102,10 @@ export default function ServiceFAQSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:+61280000000" 
+              href="tel:+61414713777" 
               className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:from-blue-500 hover:to-indigo-500 transition-all duration-300 inline-flex items-center justify-center"
             >
-              Call Us Now
+              Call Us Now: 0414 713 777
             </a>
             <a 
               href="/contact" 

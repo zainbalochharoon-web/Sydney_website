@@ -6,6 +6,11 @@ import ServiceTestimonialsSection from "@/components/sections/ServiceTestimonial
 import ServiceWhyUsSection from "@/components/sections/ServiceWhyUsSection";
 import ServiceFAQSection from "@/components/sections/ServiceFAQSection";
 import ServiceContactSection from "@/components/sections/ServiceContactSection";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/services" },
+};
 
 export default function ServicesPage() {
   return (

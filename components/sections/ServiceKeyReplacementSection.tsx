@@ -51,10 +51,10 @@ export default function ServiceKeyReplacementSection() {
                 Get Key Replacement Quote
               </a>
               <a 
-                href="tel:+61280000000" 
+                href="tel:+61414713777" 
                 className="bg-white text-slate-900 px-8 py-4 rounded-xl font-semibold text-lg border-2 border-slate-200 hover:border-slate-300 transition-all duration-300 inline-flex items-center justify-center"
               >
-                Call Now
+                Call Now: 0414 713 777
               </a>
             </div>
           </div>

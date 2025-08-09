@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description:
     "Learn about Car Locksmith Sydney - licensed, insured professionals serving Sydney since 2019. 5+ years experience, 1000+ satisfied customers.",
   keywords: "about car locksmith sydney, licensed locksmith, professional locksmith, auto locksmith experience",
+  alternates: { canonical: "/about" },
 }
 
 export default function AboutPage() {
@@ -736,8 +737,8 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-4">Phone</h3>
               <p className="text-gray-600 mb-4">Available 24/7 for emergency service</p>
-              <a href="tel:+61280000000" className="text-xl font-bold text-blue-600 hover:text-blue-800 transition-colors">
-                (02) 8000 0000
+              <a href="tel:+61414713777" className="text-xl font-bold text-blue-600 hover:text-blue-800 transition-colors">
+                0414 713 777
               </a>
             </div>
 

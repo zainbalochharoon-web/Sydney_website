@@ -7,12 +7,7 @@ export default function HeroSection() {
   const { ref: statsRef, isVisible: statsVisible } = useScrollAnimation({ threshold: 0.2 })
   const { ref: imageRef, isVisible: imageVisible } = useScrollAnimation({ threshold: 0.3 })
 
-  const handleWhatsAppClick = () => {
-    const phoneNumber = "61280000000" // Remove the + and 0
-    const message = "Hi, I need car locksmith services. Can you help me?"
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
-    window.open(whatsappUrl, '_blank')
-  }
+  
 
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white overflow-hidden">
@@ -73,14 +68,14 @@ export default function HeroSection() {
             <div className={`flex flex-col sm:flex-row gap-4 transition-all duration-700 delay-500 ${
               heroVisible ? 'animate-fade-in-up' : 'opacity-0 translate-y-4'
             }`}>
-              <button
-                onClick={handleWhatsAppClick}
+              <a
+                href="tel:+61414713777"
                 className="group bg-gradient-to-r from-yellow-500 to-orange-500 text-slate-900 px-8 py-4 rounded-xl font-bold text-lg hover:from-yellow-400 hover:to-orange-400 transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-105"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                WhatsApp: (02) 8000 0000
+                Call Now: 0414 713 777
                 <ArrowRight className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
               <a
                 href="#services"
                 className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-xl font-bold text-lg hover:bg-yellow-400 hover:text-slate-900 transition-all duration-300 text-center transform hover:scale-105"

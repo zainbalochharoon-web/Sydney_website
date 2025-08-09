@@ -37,12 +37,7 @@ export default function Header() {
     { name: "Contact", href: "/contact" },
   ]
 
-  const handleWhatsAppClick = () => {
-    const phoneNumber = "61280000000" // Remove the + and 0
-    const message = "Hi, I need car locksmith services. Can you help me?"
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
-    window.open(whatsappUrl, '_blank')
-  }
+  
 
   return (
     <header
@@ -94,14 +89,13 @@ export default function Header() {
           ))}
           
           {/* Call Button */}
-          <button
-            onClick={handleWhatsAppClick}
+          <a
+            href="tel:+61414713777"
             className="ml-6 bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 px-6 py-3 rounded-xl font-bold shadow-lg hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 flex items-center gap-2 transform hover:scale-105 hover:shadow-xl"
           >
             <Phone className="h-5 w-5" />
-            WhatsApp Now
-            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-          </button>
+            Call Now: 0414 713 777
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -152,14 +146,13 @@ export default function Header() {
               
               {/* Mobile Call Button */}
               <div className="mt-6 pt-6 border-t border-gray-200">
-                <button
-                  onClick={handleWhatsAppClick}
+                <a
+                  href="tel:+61414713777"
                   className="w-full bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 px-6 py-4 rounded-xl font-bold shadow-lg hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 flex items-center gap-3 justify-center transform hover:scale-105"
                 >
                   <Phone className="h-5 w-5" />
-                  WhatsApp: (02) 8000 0000
-                  <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                </button>
+                  Call Now: 0414 713 777
+                </a>
                 
                 {/* Service Areas */}
                 <div className="mt-4 flex items-center text-sm text-gray-600 justify-center">

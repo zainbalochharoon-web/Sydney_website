@@ -76,8 +76,8 @@ export default function EmergencyGuaranteeSection() {
               <p className="text-gray-300">If our technician doesn't arrive within the promised timeframe, you'll receive a 20% discount on our service. That's how confident we are in our response times.</p>
             </div>
             <div className="flex-shrink-0">
-              <a href="tel:+61280000000" className="inline-flex items-center bg-gradient-to-r from-red-500 to-orange-500 text-white px-6 py-3 rounded-xl font-semibold hover:from-red-600 hover:to-orange-600 transition-all duration-300 transform hover:scale-105">
-                Emergency Call
+              <a href="tel:+61414713777" className="inline-flex items-center bg-gradient-to-r from-red-500 to-orange-500 text-white px-6 py-3 rounded-xl font-semibold hover:from-red-600 hover:to-orange-600 transition-all duration-300 transform hover:scale-105">
+                Emergency Call: 0414 713 777
               </a>
             </div>
           </div>

@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   description:
     "Locked out of your car in Sydney? Our emergency locksmiths respond in 15-30 minutes. Available 24/7. No damage guarantee. Call now!",
   keywords: "emergency car locksmith sydney, car lockout service, 24/7 locksmith, auto lockout, emergency locksmith",
+  alternates: { canonical: "/emergency-car-locksmith" },
 }
 
 export default function EmergencyPage() {
@@ -67,11 +68,11 @@ export default function EmergencyPage() {
               </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a
-                  href="tel:+61280000000"
+                  href="tel:+61414713777"
                   className="bg-gradient-to-r from-yellow-500 to-orange-500 text-slate-900 px-10 py-5 rounded-xl font-bold text-xl shadow-lg hover:from-yellow-400 hover:to-orange-400 transition-all duration-300 inline-flex items-center transform hover:scale-105 animate-pulse"
                 >
                   <Phone className="h-6 w-6 mr-3" />
-                  Emergency Call: (02) 8000 0000
+                  Emergency Call: 0414 713 777
                 </a>
                 <a
                   href="/contact"

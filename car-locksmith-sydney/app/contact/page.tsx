@@ -1,9 +1,11 @@
-"use client"
+import type { Metadata } from "next"
 
-import type React from "react"
-
-import { useState } from "react"
-import { Phone, Mail, MapPin, Clock, Send } from "lucide-react"
+export const metadata: Metadata = {
+  title: "Contact | Car Locksmith Sydney",
+  description:
+    "Contact Car Locksmith Sydney for 24/7 emergency car lockout, key replacement, and ignition repair. Fast response across Sydney.",
+  alternates: { canonical: "/contact" },
+}
 
 export default function ContactPage() {
   return (

@@ -14,8 +14,8 @@ export default function EmergencyAvailabilityBanner() {
               <Clock className="h-5 w-5" />
               <span>Avg ETA: 15–30 mins</span>
             </div>
-            <a href="tel:+61280000000" className="bg-black/10 hover:bg-black/20 px-5 py-3 rounded-xl font-semibold inline-flex items-center gap-2">
-              <Phone className="h-5 w-5" /> Call Now
+            <a href="tel:+61414713777" className="bg-black/10 hover:bg-black/20 px-5 py-3 rounded-xl font-semibold inline-flex items-center gap-2">
+              <Phone className="h-5 w-5" /> Call Now: 0414 713 777
             </a>
           </div>
         </div>

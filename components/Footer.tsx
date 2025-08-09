@@ -12,7 +12,7 @@ export default function Footer() {
   const { ref: newsletterRef, isVisible: newsletterVisible } = useScrollAnimation({ threshold: 0.5 })
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "61280000000" // Remove the + and 0
+    const phoneNumber = "61414713777"
     const message = "Hi, I need car locksmith services. Can you help me?"
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
@@ -86,7 +86,7 @@ export default function Footer() {
                   <Phone className="h-4 w-4 text-slate-900" />
                 </div>
                 <div>
-                  <div className="font-semibold">+61 2 8000 0000</div>
+                  <div className="font-semibold">0414 713 777</div>
                   <div className="text-sm text-gray-400">24/7 Emergency</div>
                   <button
                     onClick={handleWhatsAppClick}

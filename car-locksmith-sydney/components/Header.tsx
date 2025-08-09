@@ -63,11 +63,11 @@ export default function Header() {
             </Link>
           ))}
           <a
-            href="tel:+61280000000"
+            href="tel:+61414713777"
             className="ml-6 bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 px-6 py-2 rounded-xl font-bold shadow-lg hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 flex items-center gap-2"
           >
             <Phone className="h-5 w-5" />
-            Call Now
+            Call Now: 0414 713 777
           </a>
         </div>
 
@@ -99,11 +99,11 @@ export default function Header() {
                 </Link>
               ))}
               <a
-                href="tel:+61280000000"
+                href="tel:+61414713777"
                 className="mt-2 bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 px-6 py-3 rounded-xl font-bold shadow-lg hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 flex items-center gap-2 justify-center"
               >
                 <Phone className="h-5 w-5" />
-                Call Now
+                Call Now: 0414 713 777
               </a>
             </div>
           </div>
